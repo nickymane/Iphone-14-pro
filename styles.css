@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Oi&family=Ruslan+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navigation {
+    width: 100%;
+    height: 113px;
+    background-color: black;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 50px; 
+    position: relative; 
+}
+
+.navigation_list {
+    list-style-type: none;
+    color: #717171;
+    display: flex;
+    gap: 30px;
+    font-size: 29px;
+    margin: 0; 
+    margin-left: 15%;
+}
+
+.navigation_block {
+    color: #717171;
+    font-size: 29px;
+    list-style-type: none;
+    margin: 0; 
+    position: absolute;
+    left: 80%;
+}
+
+.navigation_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+}
+
+.iphone__text {
+   font-size: 77px;
+   color: #490E84;
+   display: flex;
+   justify-content: center;
+    margin-top: 50px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.main_iphone {
+background-color: #F5F5F7;
+margin: -50px 0;
+}
+.iphone__img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+ z-index: 10;
+}
+
+.iphone__button {
+display: flex;
+justify-content: center;
+margin: 0;
+margin-top: 50px;
+z-index: 10;
+padding: 50px 0;
+}
+
+.button {
+color: white;
+background-color: #490E84;
+width: 350px;
+height: 70px;
+border-radius: 100px;
+font-family: 'Georgia', sans-serif;
+font-weight: 800;
+font-size: 29px;
+}
+
+.button:hover {
+  background-color: black;
+  transition: background-color 0.6s, transform 0.5s;
+}
+.section__two {
+width: 100%;
+height: 100%;
+}
+.section__two_text {
+text-align: center;
+font-size: 39px;
+padding: 100px;
+color: #717171;
+}
+
+.description__iphone {
+display: flex;
+justify-content: flex-start;
+font-size: 20px;
+font-family: "Georgia", serif;
+font-weight: bold;
+margin-left: 304px;
+margin-top: 300px;
+z-index: 1;
+
+}
+
+.iphone__section_img {
+display: flex;
+justify-content: flex-end;
+margin-right: 464px;
+margin-bottom: 100px;
+z-index: 10;
+margin-top: -200px;
+
+}
+
+.section__h4 {
+color:#717171 ;
+font-size: 32px;
+text-align: center;
+}
+
+.iphone__choose {
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-top: 50px;
+} 
+
+.iphone__color_text {
+ display: flex;
+justify-content: center;
+gap: 230px;
+margin-top: 50px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.iphone__color_text_translition {
+display: flex;
+justify-content: center;
+gap: 180px;
+margin-top: 30px;
+font-size: 20px;
+}
+
+.section__four{
+width: 600px;
+height: 600px;
+background-color: #574B63;
+display: flex;
+justify-content: flex-start;
+margin-left: 700px;
+margin-right: 960px;
+margin-top: 250px;
+}
+
+
+.iphone__text_four {
+font-family: "Inter", sans-serif;
+font-size: 32px;
+color: white;
+font-weight: bold;
+position: relative;
+left: 100px;
+top: 137px;
+}
+
+.form__iphone {
+margin-top: 250px;
+margin-left: -350px;
+}
+
+.form__iphone label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form__iphone input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff; 
+    padding: 12px 0;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+.form__iphone button {
+    padding: 30;
+    padding-left: 70px ;
+    padding-top: 10px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 240px;
+    height: 50px;
+    color: #490E84;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px; 
+    border-radius: 80px;
+    border: 1px black;
+} 
+
+.iphone__image2 {
+display: flex;
+width: 600px;
+height: 600px;
+margin-left: 50.8%;
+margin-top: -23.6%;
+}
+
+footer {
+    width: auto;
+    height: 150px;
+    background-color: black;
+}
+
+.footer__text {
+font-size:24px;
+color: #717171;
+display: flex;
+justify-content: center;
+gap: 60%;
+padding-top: 50px;
+}
+
+.footer__logo {
+display: flex;
+justify-content: center;
+margin-top: -30px;
+}
+
